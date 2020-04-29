@@ -21,9 +21,8 @@ implements two method to make the HTTP call
 public class HttpMethod {
 
     private static HttpURLConnection connection;
-    //private static final String GET_URL = "https://jsonplaceholder.typicode.com/posts";
-    private static final String GET_URL = "http://prod.pdis.us-east-1.aws.sysco.net:8081/opcos?page_size=-1";
-
+    private static final String GET_URL = "https://jsonplaceholder.typicode.com/posts";
+    
     /**Method 1:
      * Http Call using java.net.HttpURLConnection
      * Converts the json into java -> GSON
